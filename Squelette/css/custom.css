@@ -1,0 +1,61 @@
+
+.heroContainer{
+    margin: 3.5rem;
+}
+/* GLOBAL */
+h1,h2,h3,h4
+ {
+    font-family: Arvo;
+ }
+ .sepperator{
+    width: 150px;
+    border-bottom: 1px solid red;
+    margin-right: auto;
+    margin-left: auto;
+ }
+.homeHero{
+    background-image: url("images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btnHero{
+    width: 200px;
+}
+
+#myBtn {
+  
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+
+}
+
+.oneMil{
+    padding: 5.5rem;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
